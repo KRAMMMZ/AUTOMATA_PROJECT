@@ -55,6 +55,7 @@
             txtOutput.Location = new Point(13, 293);
             txtOutput.Multiline = true;
             txtOutput.Name = "txtOutput";
+            txtOutput.ScrollBars = ScrollBars.Vertical;
             txtOutput.Size = new Size(543, 209);
             txtOutput.TabIndex = 2;
             // 
@@ -78,7 +79,6 @@
             lblInstructions.Size = new Size(543, 45);
             lblInstructions.TabIndex = 4;
             lblInstructions.Text = resources.GetString("lblInstructions.Text");
-            
             // 
             // button1
             // 
