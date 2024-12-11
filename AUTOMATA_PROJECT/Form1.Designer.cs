@@ -36,6 +36,7 @@
             txtSourceCode.Location = new Point(13, 150);
             txtSourceCode.Multiline = true;
             txtSourceCode.Name = "txtSourceCode";
+            txtSourceCode.ScrollBars = ScrollBars.Vertical;
             txtSourceCode.Size = new Size(543, 100);
             txtSourceCode.TabIndex = 0;
             // 
